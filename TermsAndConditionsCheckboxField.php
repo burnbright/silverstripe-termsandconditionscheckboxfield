@@ -28,7 +28,7 @@ class TermsAndConditionsCheckboxField extends CheckboxField
 		}
 		return _t(
 			$this->class.'.PageLinkContent',
-			'I agree to the terms and conditions stated on the <a href="{TermsPageLink}" target="new" title="Read the shop terms and conditions for this site">{TermsPageTitle}</a> page.',
+			'I agree to the terms and conditions stated on the <a href="{TermsPageLink}" target="new" title="Read the terms and conditions">{TermsPageTitle}</a> page.',
 			'',
 			array(
 				'TermsPageLink' => $this->termsPage->Link(),
