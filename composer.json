@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"silverstripe/silverstripe-framework": "*"
+		"silverstripe/framework": "^3.1"
 	},
 	"extra": {
 		"installer-name": "termsandconditionscheckboxfield"
